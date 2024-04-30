@@ -1,0 +1,150 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #ffffff;
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    color: #333333;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+/* Estilos para el carousel */
+.carousel-item img {
+    max-height: 500px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 40px 0;
+}
+
+section h1, section h2, section h3 {
+    font-family: 'Arial', sans-serif;
+    color: #ce3636;
+}
+
+section p {
+    font-family: 'Arial', sans-serif;
+    color: #666666;
+}
+
+/* Estilos para el menú */
+section#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section#menu ul li {
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+    margin-bottom: 10px;
+}
+/* Estilos para la sección de contacto */
+#contacto {
+    background-color: #e8c6e9; 
+    padding: 40px 0;
+}
+
+.container {
+    text-align: center;
+}
+
+/* Estilos para la información de contacto */
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-item {
+    margin: 0 20px;
+}
+
+.contact-item i {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffc107; /* Color del icono */
+}
+
+.contact-item p {
+    font-size: 16px;
+    color: #555; /* Color del texto */
+    margin: 0;
+}
+
+/* Estilos para el formulario de reserva */
+form {
+    background-color: #fff5c7; /* Amarillo pastel */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center; /* Centra el formulario */
+}
+
+/* Estilos para el título del formulario */
+form h2 {
+    font-family: Arial, sans-serif; /* Cambia la tipografía */
+    font-size: 24px;
+    color: #333; /* Color del texto */
+    margin-bottom: 20px;
+}
+
+/* Estilos para los campos de formulario */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Estilos para las etiquetas de los campos */
+label {
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Estilos para el botón de enviar */
+button[type="submit"] {
+    background-color: #ffc107; /* Amarillo */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; 
+    margin: 0 auto; 
+}
+
+button[type="submit"]:hover {
+    background-color: #ffca28; 
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #333333;
+    border-top: 1px solid #dddddd;
+}
+
